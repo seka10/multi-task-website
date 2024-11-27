@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: cursive;
+}
+
+.body {
+  font-family: "Roboto";
+  display: grid;
+  height: 100vh;
+  place-content: center;
+  font-size: 16px;
+  overflow: hidden;
+  background: url(pics/3163534-sd_960_540_30fps.mp4);
+  color: #fff;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  width: 100%;
+  font-family: cursive;
+}
+
+.video-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  object-fit: cover;
+}
+
+.box-note {
+  width: 1100px;
+  margin: auto;
+  max-width: 100%;
+}
+
+.box-note h1 {
+  color: blueviolet;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+#file-Input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 2px solid #b563cb45;
+  border-radius: 20px;
+  box-sizing: border-box;
+  color: #6949cd;
+  cursor: pointer;
+}
+
+#the-content {
+  width: 100%;
+  font-size: 18px;
+  padding: 10px;
+  color: slategray;
+  border-radius: 25px;
+  height: 300px;
+  resize: none;
+  outline: 0;
+  margin-bottom: 10px;
+}
+
+.box-form {
+  display: flex;
+  align-items: center;
+}
+
+.box-form input {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.box-form button,
+#outputs .items button {
+  padding: 10px;
+  font-size: 18px;
+  border: 0;
+  outline: 0;
+  border-radius: 10px;
+  background-color: #b563cbad;
+  color: #fff;
+  width: 180px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.box-form button:hover {
+  transition: 0.4s ease-in;
+  box-shadow: 0 0 20px 7px #8968f8;
+}
+
+#outputs {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#outputs .items {
+  width: 32%;
+  flex: 0 0 auto;
+  background-color: #6949cdb8;
+  padding: 15px;
+  border-radius: 15px;
+  margin: 5px;
+}
+
+#outputs .items:hover {
+  width: 33%;
+  flex: 0 0 auto;
+  background-color: #9149cdd9;
+  padding: 15px;
+  border-radius: 15px;
+  transition: 1s;
+}
+
+#outputs .items button {
+  float: right;
+  width: auto;
+  background-color: #c351e1b5;
+  padding: 10px;
+}
+
+#outputs .items button:hover {
+  transition: 0.4s ease-in;
+  box-shadow: 0px 0 10px 5px #f20606;
+  color: #bd0000;
+  background: #c351e1;
+}
+#outputs .items h2 {
+  font-size: 18px;
+}
+
+#outputs .items p {
+  font-size: 16px;
+}
+
+.main-line {
+  background-color: #6949cd;
+}
+
+.sub:hover {
+  cursor: pointer;
+  z-index: 10;
+}
+
+#add:hover{
+  background-color: #8a2be2;
+
+}
