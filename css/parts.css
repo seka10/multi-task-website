@@ -21,6 +21,7 @@ section {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   top: 40px;
   position: relative;
+  height: 100vh;
 }
 
 ul {
@@ -88,4 +89,11 @@ ul li::before{
     transform: translate(-50%,70%);
     border-radius: 100%;
     background: #ddd;
+}
+
+.btn-home{
+  position: relative;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
 }
